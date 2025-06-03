@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+           margin: 0;
+           display: flex;
+        }
+        .dashboard1{
+            height: 100vh;
+            width: 250px;
+            background-color:rgb(24, 248, 24);
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            height:10px;
+            width:80px;
+            background-color: rgb(255,255,255,0.2);
+            border: 1px solid rgb(255, 255, 255,0.4);
+            border-radius:6px;
+            padding: 10px;
+        }
+        .dashboard2{
+            flex: 1;
+            padding: 20px;
+            background-color:rgb(234, 232, 232);
+        }
+        .boxes{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .students{
+            font-size: 20px;
+            height:90px;
+            width: 550px;
+            border: 1px solid white;
+            border-radius: 8px;
+            text-align: center;
+            background-color:white;
+            margin-right: 60px;
+            margin-bottom: 50px;
+        }
+
+        .teachers{
+            font-size: 20px;
+            height:90px;
+            width: 550px;
+            border: 1px solid white;
+            border-radius: 8px;
+            text-align: center;
+            background-color:white;
+        }
+        .classes{
+            font-size: 20px;
+            height:90px;
+            width: 550px;
+            border: 1px solid white;
+            border-radius: 8px;
+            text-align: center;
+            background-color:white;
+            margin-right: 60px;
+
+            
+        }
+        .exams{
+            font-size: 20px;
+            height:90px;
+            width: 550px;
+            border: 1px solid white;
+            border-radius: 8px;
+            text-align: center;
+            background-color:white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="dashboard1">
+        <h2 style="color: white;">School Dashboard</h2>
+        <a href="#">Dashboard</a>
+        <a href="#">Students</a>
+        <a href="#">Teachers</a>
+        <a href="#">Classes</a>
+        <a href="#">Exams</a>
+        <a href="#">Library</a>
+        <a href="#">Settings</a>
+    </div>
+
+    <div class="dashboard2">
+        <h2 style="color:rgb(24, 248, 24); text-align: center;"><strong>Welcome to the School Dashboard</strong></h2>
+        <div class="boxes">
+            <div class="students">
+            <p><strong>Total Students</strong></p>
+            <p style="color:rgb(24, 248, 24);"><strong>500</strong></p>
+        </div>
+        <div class="teachers">
+            <p><strong>Total Teachers</strong></p>
+            <p style="color:rgb(24, 248, 24);"><strong>50</strong></p>
+        </div>
+        <div class="classes">
+            <p><strong>Classes</strong></p>
+            <p style="color:rgb(24, 248, 24);"><strong>20</strong></p>
+        </div>
+        <div class="exams">
+            <p><strong>Upcoming Exams</strong></p>
+            <p style="color:rgb(24, 248, 24);"><stong>05</stong></p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
